@@ -1,10 +1,10 @@
 
 from importer import readPage
 
-pages = 10
+pages = 1
 allData = []
 for page in range(pages):
     for entry in readPage(page):
         allData.append(entry)
 
-print((allData))
+print(list(map(lambda x: x.url, allData)))
