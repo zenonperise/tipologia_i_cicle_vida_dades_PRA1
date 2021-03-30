@@ -1,19 +1,27 @@
-Variables (amb el filtre d’actualitat)
+Variables (
 
 -	Títol
 -	Resum
 -	Meneos
 -	Data publicació
+-   Categoria(Adrià afegir)
 
-Relació de paraules dins del text amb els meneos, amb la data i relació entre paraules dins d’un mateix text.
 
--Clusterització: No se si per exemple es podria classificar d’alguna manera el text amb el contingut de les seves paraules.
+Llista coses a fer
 
--Freqüència de paraules. Quines paraules es repeteixen més (popularitat) o depenen de la data(dia /setmana/mes).
+- Context: Volsem fer un dataset de contingut de notícies i el lloc triat és un agregador de notícies que....
+- Títol: Notícies de Meneame
+- Descripció: Aquest dataset presenta el titular i un resum de notícies publicades al portal Meneame.net. Les notícies estan escollides i votades per la comunitat i els usuaris poden votar,comentar....
+- Agreïments: Altres datasets de meneame i per altre costat datasets que fagin un analisis de text similar. (Adrià i Zenon) 
+- Inspiració:  
 
--Col·locació de paraules: Coexistència de paraules (dos o tres normalment) que es relacionen de manera oculta però que es poden trobar en un anàlisis. (Exemple Pablo Iglesias – Crispació).
+Relació de paraules dins del text amb els meneos, amb la data i relació entre paraules dins d’un mateix text i categoria.
 
--Busca d’entitats: Extracció de persones, empreses o ubicacions en un text.
+Clusterització: No se si per exemple es podria classificar d’alguna manera el text amb el contingut de les seves paraules.
 
--Relacionar els memes amb el sentiment general del text (positiu, negatiu o neutre). Això s’utilitza més per opinions però podria ser útil?
+Freqüència de paraules. Quines paraules es repeteixen més (popularitat) o depenen de la data(dia /setmana/mes).
 
+Col·locació de paraules: Coexistència de paraules (dos o tres normalment) que es relacionen de manera oculta però que es poden trobar en un analisis. 
+
+
+- Guardar a un fitxer.csv 
