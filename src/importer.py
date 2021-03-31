@@ -21,13 +21,14 @@ def readPage(page):
             date2 = date1_node.next_sibling.next_sibling['data-ts']
         else:
             date2 = '0'
+        category = article.find(attrs={'class': 'subname'}).string
         res.append(Entry(page, extern_url, title,
-                   summary, votes, date1, date2))
+                   summary, votes, date1, date2, category))
     return res
 
 
 class Entry:
-    def __init__(self, page, url, title, summary, votes, date1, date2):
+    def __init__(self, page, url, title, summary, votes, date1, date2, category):
         self.page = page
         self.url = url
         self.title = title
@@ -35,3 +36,6 @@ class Entry:
         self.votes = votes
         self.date1 = date1
         self.date2 = date2
+        self.category= category
+        
+        

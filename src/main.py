@@ -7,4 +7,4 @@ for page in range(pages):
     for entry in readPage(page):
         allData.append(entry)
 
-print(list(map(lambda x: x.url, allData)))
+print(list(map(lambda x: x.category, allData)))
