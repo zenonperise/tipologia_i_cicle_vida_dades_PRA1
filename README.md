@@ -6,5 +6,5 @@ El codi de l'scrapper es trova a la carpeta src. Per executar-lo cal executar ma
 
 Alumnes:
 
-Zenon Perise Alia
-Adria Vidal de Palol
+- Zenon Perise Alia
+- Adria Vidal de Palol
