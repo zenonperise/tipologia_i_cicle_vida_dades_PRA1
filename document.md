@@ -2,36 +2,39 @@
 
 ## Context
 
-Els medis de comunicació tenen una gran importància a la societat actual. L'anomenat "quart poder" té la capacitat de, a part d'informar sobre l'actuaiitat,
+Els medis de comunicació tenen una gran importància a la societat actual. L'anomenat "quart poder" té la capacitat de, a part d'informar sobre l'actualitat,
 de formar, canviar i manipular l'opinió pública.
 
-Per aquest motiu hem plantejat la possibilitat de fer un estudi sobre les noticies publicades durant un periode de temps per tal de veure quins esdeveniments o
+Per aquest motiu, hem plantejat la possibilitat de fer un estudi sobre les notícies publicades durant un periode de temps per tal de veure quins esdeveniments o
 personatges han tingut una certa rellevància durant un temps en el passat.
 
 Com a font de dades hem escollit la web <https://www.meneame.net>. Aquesta web és un agregador de noticies, és a dir, recull noticies d'altres medis.
 La particularitat d'aquesta pàgina és que la decisió sobre quines noticies apareixen a portada és pressa per la comunitat de la pàgina gracies a un sistema de votacions.
 Per tant, les notícies que apareixen en portada tenen una certa rellevància social o interes per la major part d'usuaris.
 
+
+* Potser desenvoluparia o argumentaria més el que expliques en el primer paràgraf (tot i així no val gaire aquest apartat)
+
 ## Títol del dataset
 
 ## Descripció
 
-El dataset recull les noticies que han arribat a la portada de Meneame.
+El dataset recull les notícies que han arribat a la portada de Meneame.
 
-Com que la pàgina de Meneame és un agregador de noticies, el primer camp que trobem mostra la URL a la noticia propiament dita, és a dir, és un enllac a una altra web, ja sigui la versió digital d'un diari o un blog o qualsevol altre tipus de pàgina. A continuació trobem els dos camps principals de la noticia, que contenen la noticia pròpiament dita. Aquests són el títol i el resum de la noticia. Es tracta d'un text escrit normalment en castellà.
+Com que la pàgina de Meneame és un agregador de notícies, el primer camp ens mostra la URL de la notícia propiament dita, és a dir, és un enllac a una altra web, ja sigui la versió digital d'un diari o un blog o qualsevol altre tipus de pàgina. A continuació trobem els dos camps principals de la notícia, que contenen la notícia pròpiament dita. Aquests són el títol i el resum de la notícia. Es tracta d'un text escrit normalment en castellà.
 
-Per tal de posar les noticies en context temporal disposem de dues dates que enregistra Meneame. Aquestes són, per un costat, la data i hora en la que la noticia ha estat enregistrada a la pàgina. És a dir, el dia i hora en el que un usuari ha decidit que una determinada noticia d'un medi extern pot ser rellevant per a la comunitat i l'ha enregistrar a Meneame. Aquesta és la data d'enviament. Després de cert temps, la comunitat ha pogut veure aquesta noticia i ha pogut votar si és rellevant o no. L'algorisme de Meneame decideix a partir d'aquests vots si la noticia és rellevant i per tant, apareix en portada. Aquesta és la data de publicació i és la segona data que enregistrem.
+Per tal de posar les notícies en context temporal disposem de dues dates que enregistra Meneame. Aquestes són, per un costat, la data i hora en la que la notícia ha estat enregistrada a la pàgina. És a dir, el dia i hora en el que un usuari ha decidit que una determinada notícia d'un medi extern pot ser rellevant per a la comunitat i l'ha enregistrar a Meneame. Aquesta és la data d'enviament. Després de cert temps, la comunitat ha pogut veure aquesta notícia i ha pogut votar si és rellevant o no. L'algorisme de Meneame decideix a partir d'aquests vots sí la notícia és rellevant i per tant, apareix en portada. Aquesta és la data de publicació i és la segona data que enregistrem.
 
-Tal com hem dit, la decisió de publicació es pren en funció de les votacions que ha rebut una noticia determinada. Per tal de poder ponderar el pes d'una noticia determinada el nostre dataset també conté el número de vots que ha obtingut.
+Tal com hem dit, la decisió de publicació es pren en funció de les votacions que ha rebut una notícia determinada. Per tal de poder ponderar el pes d'una notícia determinada el nostre dataset també conté el número de vots que ha obtingut.
 
-Per últim, no totes les noticies que s'envien a Meneame són d'actualitat propiament dites. També apareixen altres tipus com articles culturals o històrics. Per tal de diferenciar les noticies d'actualitat d'altre tipus de textos disposem d'una categoria, que és assignada per l'usuari que envia la noticia.
+Per últim, no totes les noticies que s'envien a Meneame són d'actualitat propiament dites. També apareixen altres tipus com articles culturals o històrics. Per tal de diferenciar les notícies d'actualitat d'altre tipus de textos, disposem d'una categoria que és assignada per l'usuari que envia la notícia.
 
 ## Representació Grafica
 
 ## Contingut
 
-- Pagina
-- Titol
+- Pàgina
+- Títol
 - Resum
 - URL
 - Vots
@@ -39,11 +42,11 @@ Per últim, no totes les noticies que s'envien a Meneame són d'actualitat propi
 - Data Publicació
 - Categoria
 
-## Agraiments
+## Agraïments
 
-La pàgina Meneame.net és un agregador de noticies en castellà creat al 2005 per Ricardo Galli, un professor de la Universitat de les Illes Balears (UIB). Meneame ofereix la possibilitat d'enviar noticies d'altres medis, votar-les i comentar-les. Les noticies s'ordenen segons la seva popularitat, mesurada a partir dels vots i número de comentaris. Les més populars apareixen a la portada de Meneame.
+La pàgina Meneame.net és un agregador de notícies en castellà creat al 2005 per Ricardo Galli, un professor de la Universitat de les Illes Balears (UIB). Meneame ofereix la possibilitat d'enviar notícies d'altres medis, votar-les i comentar-les. Les notícies s'ordenen segons la seva popularitat, mesurada a partir dels vots i número de comentaris. Les més populars apareixen a la portada de Meneame.
 
-Anteriorment s'han utilititzat medis digitals per a fer un estudi sobre els titulars de noticies, majorment en llengua anglesa. També s'ha utilitzar Meneame per a extreure altres tipus d'informació. A continuació veiem els links:
+Anteriorment s'han utilititzat medis digitals per a fer un estudi sobre els titulars de notícies, majoritàriament de llengua anglesa. També s'ha utilitzar Meneame per a extreure altres tipus d'informació. A continuació veiem els enllaços:
 
 ### Analisis anteriors - Noticies de medis digitals
 
@@ -61,17 +64,20 @@ Anteriorment s'han utilititzat medis digitals per a fer un estudi sobre els titu
 
 ## Inspiració
 
-Aquest dataset vol mostrar quins conceptes o personatges han tingut rellevància durant certs periodes de temps tenint en compte les noticies publicades a la prensa. Aquestes noticies, al estar publicades a Meneame, ja han passat un filtre de rellevància per part de la seva comunitat. Per tant, amb Meneame disposem d'una font de noticies rellevants ordenades cronologicament. Això ens permet fer diferents estudis
+Aquest dataset vol mostrar quins conceptes o personatges han tingut rellevància durant certs periodes de temps tenint en compte les notícies publicades a la prensa. Aquestes notícies, al estar publicades a Meneame, ja han passat un filtre de rellevància per part de la seva comunitat. Per tant, amb Meneame disposem d'una font de notícies rellevants ordenades cronologicament. Això ens permet fer diferents estudis
 
 - Esdeveniments / Personatges / Conceptes
   - populars o més freqüents en un determinat interval de temps
   - ponderant amb el pes en vots
-- Clustering de noticies que parlem de temes similars
-- Classificació de noticies futures
+- Clustering de notícies que parlem de temes similars
+- Classificació de notícies futures
 - Estudi de paraules que apareixen associades. Per exemple (Pedro + Sanchez)
-- Veure si esdeveniments que han ocorregut es reflexen a les noticies. Per exemple, Brexit.
+- Veure sí esdeveniments que han ocorregut es reflexen a les notícies. Per exemple, Brexit.
 
 ## Preguntes a respondre
 
 - Quina és la diferència entre la Descripció i el contingut?
 - Cal fer les respostes punt a punt o en un text tot seguit? Hi han temes i conceptes que es repeteixen a diferents punts.
+
+*Aquí on poses l'exemple de Pedro + Sanchez, no seria millor dues paraules que no anessin seguides? com Sanchez + Vacunas?
+*Penso que la cescripció ho has explicat molt bé de com funcion els camps dins la pàgina i perquè i els camps és simplament descriptiu.
