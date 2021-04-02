@@ -1,26 +1,34 @@
-# Context
+# Pràctica 1 de Tipologia i cicle de vida de les dades
 
-Els medis de comunicació tenen una gran importància a la societat actual. L'anomenat "quart poder" té la capacitat de, a part d'informar sobre l'actuaiitat, 
+## Context
+
+Els medis de comunicació tenen una gran importància a la societat actual. L'anomenat "quart poder" té la capacitat de, a part d'informar sobre l'actuaiitat,
 de formar, canviar i manipular l'opinió pública.
 
-Per aquest motiu hem plantejat la possibilitat de fer un estudi sobre les noticies publicades durant un periode de temps per tal de veure quins esdeveniments o 
-personatges han tingut una certa rellevància durant un temps en el passat. 
+Per aquest motiu hem plantejat la possibilitat de fer un estudi sobre les noticies publicades durant un periode de temps per tal de veure quins esdeveniments o
+personatges han tingut una certa rellevància durant un temps en el passat.
 
-Com a font de dades hem escollit la web https://www.meneame.net. Aquesta web és un agregador de noticies, és a dir, recull noticies d'altres medis. 
-Quines noticies apareixen a la portada és decidit per la comunitat de la pàgina gracies a un sistema de votacions. D'aquesta manera podem assumir que les noticies
-que apareixen en portada (la pàgina principal de Meneame) tenen una certa rellevància social o un interes per part de bastants usuaris. 
+Com a font de dades hem escollit la web <https://www.meneame.net>. Aquesta web és un agregador de noticies, és a dir, recull noticies d'altres medis.
+La particularitat d'aquesta pàgina és que la decisió sobre quines noticies apareixen a portada és pressa per la comunitat de la pàgina gracies a un sistema de votacions.
+Per tant, les notícies que apareixen en portada tenen una certa rellevància social o interes per la major part d'usuaris.
 
-# Títol del dataset
+## Títol del dataset
 
-# Descripció
+## Descripció
 
-El dataset generat conté una serie de noticies amb el seu títol i un petit resum. A més hi ha informació sobre la data de publicació i la valoració de la noticia per
-part de la comunitat. A Meneame també es publiquen noticies que no són d'actualitat. De manera que també llegirem la categoria a la que correspon la noticia, per 
-tal de poder descartar les noticies que no siguin d'actualitat. 
+El dataset recull les noticies que han arribat a la portada de Meneame.
 
-# Representació Grafica
+Com que la pàgina de Meneame és un agregador de noticies, el primer camp que trobem mostra la URL a la noticia propiament dita, és a dir, és un enllac a una altra web, ja sigui la versió digital d'un diari o un blog o qualsevol altre tipus de pàgina. A continuació trobem els dos camps principals de la noticia, que contenen la noticia pròpiament dita. Aquests són el títol i el resum de la noticia. Es tracta d'un text escrit normalment en castellà.
 
-# Contingut
+Per tal de posar les noticies en context temporal disposem de dues dates que enregistra Meneame. Aquestes són, per un costat, la data i hora en la que la noticia ha estat enregistrada a la pàgina. És a dir, el dia i hora en el que un usuari ha decidit que una determinada noticia d'un medi extern pot ser rellevant per a la comunitat i l'ha enregistrar a Meneame. Aquesta és la data d'enviament. Després de cert temps, la comunitat ha pogut veure aquesta noticia i ha pogut votar si és rellevant o no. L'algorisme de Meneame decideix a partir d'aquests vots si la noticia és rellevant i per tant, apareix en portada. Aquesta és la data de publicació i és la segona data que enregistrem.
+
+Tal com hem dit, la decisió de publicació es pren en funció de les votacions que ha rebut una noticia determinada. Per tal de poder ponderar el pes d'una noticia determinada el nostre dataset també conté el número de vots que ha obtingut.
+
+Per últim, no totes les noticies que s'envien a Meneame són d'actualitat propiament dites. També apareixen altres tipus com articles culturals o històrics. Per tal de diferenciar les noticies d'actualitat d'altre tipus de textos disposem d'una categoria, que és assignada per l'usuari que envia la noticia.
+
+## Representació Grafica
+
+## Contingut
 
 - Pagina
 - Titol
@@ -31,37 +39,39 @@ tal de poder descartar les noticies que no siguin d'actualitat.
 - Data Publicació
 - Categoria
 
-# Agraiments
+## Agraiments
 
-## Analisis anteriors - Noticies
+La pàgina Meneame.net és un agregador de noticies en castellà creat al 2005 per Ricardo Galli, un professor de la Universitat de les Illes Balears (UIB). Meneame ofereix la possibilitat d'enviar noticies d'altres medis, votar-les i comentar-les. Les noticies s'ordenen segons la seva popularitat, mesurada a partir dels vots i número de comentaris. Les més populars apareixen a la portada de Meneame.
 
-- https://towardsdatascience.com/headlines-articles-analysis-and-nlp-4013a66dbac
-- https://towardsdatascience.com/analyzing-cnets-headlines-3f350bb97cd4
-- https://www.kaggle.com/therohk/million-headlines
-- https://www.kaggle.com/richel145/analysis-of-a-million-news-headlines
+Anteriorment s'han utilititzat medis digitals per a fer un estudi sobre els titulars de noticies, majorment en llengua anglesa. També s'ha utilitzar Meneame per a extreure altres tipus d'informació. A continuació veiem els links:
 
-## Analisis anteriors - Meneame
+### Analisis anteriors - Noticies de medis digitals
 
-- https://www.kaggle.com/mrverde/meneamenet-front-page-news
-- https://www.researchgate.net/figure/Scatter-plot-of-days-in-the-dataset-of-Meneame-2011-2015-Each-day-is-represented-by-a_fig2_318914420
-- https://zenodo.org/record/2536218
-- https://zenodo.org/record/4122059
+- <https://towardsdatascience.com/headlines-articles-analysis-and-nlp-4013a66dbac>
+- <https://towardsdatascience.com/analyzing-cnets-headlines-3f350bb97cd4>
+- <https://www.kaggle.com/therohk/million-headlines>
+- <https://www.kaggle.com/richel145/analysis-of-a-million-news-headlines>
 
-# Inspiració
+### Analisis anteriors - Meneame
 
-Tenint en compte el funcionament de la pàgina de Meneame podem assumir que les noticies que trobem a la portada tenen una certa rellevància en el moment de 
-ser publicades. Per tant aquest dataset ens permet veure en tot moment quins temes són interessants per a l'opinió pública.
-Això ens permet fer diferents estudis
+- <https://www.kaggle.com/mrverde/meneamenet-front-page-news>
+- <https://www.researchgate.net/figure/Scatter-plot-of-days-in-the-dataset-of-Meneame-2011-2015-Each-day-is-represented-by-a_fig2_318914420>
+- <https://zenodo.org/record/2536218>
+- <https://zenodo.org/record/4122059>
 
-- Esdeveniments / Personatges / Conceptes 
-    - populars o més freqüents en un determinat interval de temps
-    - ponderant amb el pes en vots
-- Clustering de noticies que parlem de temes similars 
+## Inspiració
+
+Aquest dataset vol mostrar quins conceptes o personatges han tingut rellevància durant certs periodes de temps tenint en compte les noticies publicades a la prensa. Aquestes noticies, al estar publicades a Meneame, ja han passat un filtre de rellevància per part de la seva comunitat. Per tant, amb Meneame disposem d'una font de noticies rellevants ordenades cronologicament. Això ens permet fer diferents estudis
+
+- Esdeveniments / Personatges / Conceptes
+  - populars o més freqüents en un determinat interval de temps
+  - ponderant amb el pes en vots
+- Clustering de noticies que parlem de temes similars
+- Classificació de noticies futures
 - Estudi de paraules que apareixen associades. Per exemple (Pedro + Sanchez)
-- Veure si esdeveniments es reflexen a les noticies, per exemple Brexit.
+- Veure si esdeveniments que han ocorregut es reflexen a les noticies. Per exemple, Brexit.
 
+## Preguntes a respondre
 
-
-# Preguntes a respondre
-
-- 
+- Quina és la diferència entre la Descripció i el contingut?
+- Cal fer les respostes punt a punt o en un text tot seguit? Hi han temes i conceptes que es repeteixen a diferents punts.
