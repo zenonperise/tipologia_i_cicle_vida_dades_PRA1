@@ -2,18 +2,13 @@
 
 ## Context
 
-Els medis de comunicació tenen una gran importància a la societat actual. L'anomenat "quart poder" té la capacitat de, a part d'informar sobre l'actualitat,
-de formar, canviar i manipular l'opinió pública.
+La importància dels medis de comunicació a la societat actual és indiscutible. L'anomenat "quart poder" té la capacitat de, a part d'informar sobre l'actualitat,
+de formar, canviar i manipular l'opinió pública. Cada medi de comunicació té la seva línia editorial, que fa que es posi l'accent a diferents aspectes d'una mateixa notícia. En aquest context es fa necessari el contrast de noticies de diferents medis per tal d'esbrinar el que realment ha passat. D'aquest necessitat i amb l'ajut de les noves tecnologies, sorgeixen els anomenats agregadors de notícies. Aquests sistemes permeten agrupar notícies de diferents medis i presentar-les de forma conjunta per tal d'obtenir una visió general de la realitat.  
 
-Per aquest motiu, hem plantejat la possibilitat de fer un estudi sobre les notícies publicades durant un periode de temps per tal de veure quins esdeveniments o
-personatges han tingut una certa rellevància durant un temps en el passat.
+Per aquest motiu, hem plantejat la possibilitat de fer un estudi sobre les notícies publicades durant un periode de temps en un agregador de notícies per tal de veure quins esdeveniments o personatges han tingut una certa rellevància durant un temps en el passat.
 
 Com a font de dades hem escollit la web <https://www.meneame.net>. Aquesta web és un agregador de noticies, és a dir, recull noticies d'altres medis.
-La particularitat d'aquesta pàgina és que la decisió sobre quines noticies apareixen a portada és pressa per la comunitat de la pàgina gracies a un sistema de votacions.
-Per tant, les notícies que apareixen en portada tenen una certa rellevància social o interes per la major part d'usuaris.
-
-
-* Potser desenvoluparia o argumentaria més el que expliques en el primer paràgraf (tot i així no val gaire aquest apartat)
+La particularitat d'aquesta pàgina és que la decisió sobre quines noticies apareixen a portada és pressa per la comunitat de la pàgina gracies a un sistema de votacions. Per tant, les notícies que apareixen en portada tenen una certa rellevància social o interes per la major part d'usuaris.
 
 ## Títol del dataset
 
@@ -33,14 +28,14 @@ Per últim, no totes les noticies que s'envien a Meneame són d'actualitat propi
 
 ## Contingut
 
-- Pàgina
-- Títol
-- Resum
-- URL
-- Vots
-- Data Enviament
-- Data Publicació
-- Categoria
+- Pàgina: Número de pàgina de Meneame on apareix la notícia
+- Títol: Títol de la noticia. Text curt.
+- Resum: Resum de la notícia amb una llargada de 4 o 5 línies.
+- URL: URL de la notícia original.
+- Vots: Numero de vots que havia rebut la notícia en el moment de fer la recollida de dades.
+- Data Enviament: Data d'enviament de la notícia a Meneame. El format és el número de segons desde mitjanit del 1 de Gener de 1970 a la zona horaria UTC.
+- Data Publicació: Data en la que la notícia va ser publicada a la portada de Meneame. El format és el número de segons desde mitjanit del 1 de Gener de 1970 a la zona horaria UTC.
+- Categoria: Categoria de l'article: Notícia d'actualitat, curiositat, ...
 
 ## Agraïments
 
@@ -71,13 +66,10 @@ Aquest dataset vol mostrar quins conceptes o personatges han tingut rellevància
   - ponderant amb el pes en vots
 - Clustering de notícies que parlem de temes similars
 - Classificació de notícies futures
-- Estudi de paraules que apareixen associades. Per exemple (Pedro + Sanchez)
+- Estudi de paraules que apareixen associades. Per exemple (Fernando Simon + COVID)
 - Veure sí esdeveniments que han ocorregut es reflexen a les notícies. Per exemple, Brexit.
 
 ## Preguntes a respondre
 
 - Quina és la diferència entre la Descripció i el contingut?
 - Cal fer les respostes punt a punt o en un text tot seguit? Hi han temes i conceptes que es repeteixen a diferents punts.
-
-*Aquí on poses l'exemple de Pedro + Sanchez, no seria millor dues paraules que no anessin seguides? com Sanchez + Vacunas?
-*Penso que la cescripció ho has explicat molt bé de com funcion els camps dins la pàgina i perquè i els camps és simplament descriptiu.
