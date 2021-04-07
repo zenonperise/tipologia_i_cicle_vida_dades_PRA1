@@ -3,7 +3,7 @@
 ## Context
 
 La importància dels medis de comunicació a la societat actual és indiscutible. L'anomenat "quart poder" té la capacitat de, a part d'informar sobre l'actualitat,
-de formar, canviar i manipular l'opinió pública. Cada medi de comunicació té la seva línia editorial, que fa que es posi l'accent a diferents aspectes d'una mateixa notícia. En aquest context es fa necessari el contrast de noticies de diferents medis per tal d'esbrinar el que realment ha passat. D'aquest necessitat i amb l'ajut de les noves tecnologies, sorgeixen els anomenats agregadors de notícies. Aquests sistemes permeten agrupar notícies de diferents medis i presentar-les de forma conjunta per tal d'obtenir una visió general de la realitat.  
+de formar, canviar i manipular l'opinió pública. Cada medi de comunicació té la seva línia editorial, que fa que es posi l'accent a diferents aspectes d'una mateixa notícia. En aquest context es fa necessari el contrast de noticies de diferents medis per tal d'esbrinar el que realment ha passat. D'aquest necessitat i amb l'ajut de les noves tecnologies, sorgeixen els anomenats agregadors de notícies. Aquests sistemes permeten agrupar notícies de diferents medis i presentar-les de forma conjunta per tal d'obtenir una visió general de la realitat.
 
 Per aquest motiu, hem plantejat la possibilitat de fer un estudi sobre les notícies publicades durant un periode de temps en un agregador de notícies per tal de veure quins esdeveniments o personatges han tingut una certa rellevància durant un temps en el passat.
 
@@ -41,21 +41,55 @@ Per últim, no totes les noticies que s'envien a Meneame són d'actualitat propi
 
 La pàgina Meneame.net és un agregador de notícies en castellà creat al 2005 per Ricardo Galli, un professor de la Universitat de les Illes Balears (UIB). Meneame ofereix la possibilitat d'enviar notícies d'altres medis, votar-les i comentar-les. Les notícies s'ordenen segons la seva popularitat, mesurada a partir dels vots i número de comentaris. Les més populars apareixen a la portada de Meneame.
 
-Anteriorment s'han utilititzat medis digitals per a fer un estudi sobre els titulars de notícies, majoritàriament de llengua anglesa. També s'ha utilitzar Meneame per a extreure altres tipus d'informació. A continuació veiem els enllaços:
+El fitxer robots.txt té el següent contingut:
+
+```
+
+User-agent: *
+Disallow: /search
+Disallow: /between
+Disallow: /login
+Disallow: /shakeit.php
+Disallow: /index.php
+Disallow: /profile.php
+Disallow: /between.php
+Disallow: /login.php
+Disallow: /submit.php
+Disallow: /trackback.php
+Disallow: /editlink.php
+Disallow: /backend/
+Disallow: /api/
+Disallow: /index.php
+Disallow: /comments_rss2.php
+Disallow: /rss2.php?
+Disallow: /javascript:
+Disallow: /comments_rss2.php
+Disallow: /link_bookmark.php
+Disallow: /search.php
+
+Sitemap: http://www.meneame.net/sitemap
+
+User-agent: Mediapartners-Google
+Disallow:
+```
+
+El nostre Scrapper obté la informació de les adreces <https://www.meneame.net/?page=XX>, on XX és el número de pàgina que volem obtenir. Al fitxer robots.txt no apareix aquesta URL, per tant no està explicítament prohibit accedir-hi de forma automàtica.
+
+Pel que fa a estudis anteriors, hem trobat que s'han utilititzat medis digitals per a fer un estudi sobre els titulars de notícies, majoritàriament de llengua anglesa. També s'ha utilitzar Meneame per a extreure altres tipus d'informació. A continuació veiem els enllaços:
 
 ### Analisis anteriors - Noticies de medis digitals
 
-- <https://towardsdatascience.com/headlines-articles-analysis-and-nlp-4013a66dbac>
-- <https://towardsdatascience.com/analyzing-cnets-headlines-3f350bb97cd4>
-- <https://www.kaggle.com/therohk/million-headlines>
-- <https://www.kaggle.com/richel145/analysis-of-a-million-news-headlines>
+- Estudi dels titulars del New York Times de Gener a Juliol del 2020 utilitzant NLP (Natural Language Processing) <https://towardsdatascience.com/headlines-articles-analysis-and-nlp-4013a66dbac>
+- Estudi dels titulars publicats a CNET <https://towardsdatascience.com/analyzing-cnets-headlines-3f350bb97cd4>
+- Dataset amb els titulars de les noticies publicades per la ABC (Australian Broadcasting Corporation) durant un periode de 8 anys <https://www.kaggle.com/therohk/million-headlines>
+- Dataset amb els titulars del ABC-News, un diari australià, durant un periode que va del 2003 al 2016 <https://www.kaggle.com/richel145/analysis-of-a-million-news-headlines>
 
 ### Analisis anteriors - Meneame
 
-- <https://www.kaggle.com/mrverde/meneamenet-front-page-news>
-- <https://www.researchgate.net/figure/Scatter-plot-of-days-in-the-dataset-of-Meneame-2011-2015-Each-day-is-represented-by-a_fig2_318914420>
-- <https://zenodo.org/record/2536218>
-- <https://zenodo.org/record/4122059>
+- Dataset que inclou tota la informació apareguda a la portada de Meneame des del 2005 fins al 2017 <https://www.kaggle.com/mrverde/meneamenet-front-page-news>
+- Estudi que mostra com afecta la aparició de temes nous a una plataforma de discussió online, en aquest cas Meneame <https://www.researchgate.net/figure/Scatter-plot-of-days-in-the-dataset-of-Meneame-2011-2015-Each-day-is-represented-by-a_fig2_318914420>
+- Dataset utilitzat a l'estudi del punt anterior <https://zenodo.org/record/2536218>
+- Dataset que conté algunes noticies aparegudse a la portada de Meneame <https://zenodo.org/record/4122059>
 
 ## Inspiració
 
