@@ -16,17 +16,18 @@ for page in range(pages):
 
 page = list(map(lambda x: x.page, allData))
 url = list(map(lambda x: x.url, allData))
+title = list(map(lambda x: x.title, allData))
 summary = list(map(lambda x: x.summary, allData))
 votes = list(map(lambda x: x.votes, allData))
 published_date = list(map(lambda x: x.published_date, allData))
 send_date = list(map(lambda x: x.send_date, allData))
 category = list(map(lambda x: x.category, allData))
 
-data = [page, url, summary, votes, published_date, send_date, category]
+data = [page, url, title, summary, votes, published_date, send_date, category]
 
 df = DataFrame(data).transpose()
 
-df.columns = ["page", "url", "summary", "votes",
+df.columns = ["page", "url", "title", "summary", "votes",
               "published_date", "send_date", "category"]
 
 print("Variables carregades i amb encapçalat")
