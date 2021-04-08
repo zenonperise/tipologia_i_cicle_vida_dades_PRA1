@@ -2,7 +2,6 @@
 from importer import readPage
 from pandas import DataFrame
 import time
-import csv
 
 pages = 3
 allData = []
