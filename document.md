@@ -12,6 +12,8 @@ La particularitat d'aquesta pàgina és que la decisió sobre quines noticies ap
 
 ## Títol del dataset
 
+Anàlisi de les notícies publicades a la portada de Meneame.net del Maig 2020 fins Abril 2021
+
 ## Descripció
 
 El dataset recull les notícies que han arribat a la portada de Meneame.
