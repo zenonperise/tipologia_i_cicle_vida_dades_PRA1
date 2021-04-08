@@ -38,5 +38,4 @@ class Entry:
         self.date2 = date2
         self.category= category
         
-
         
