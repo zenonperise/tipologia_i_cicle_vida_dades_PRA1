@@ -132,6 +132,9 @@ Segons el nostre criteri, seleccionem la llicència Released Under CC BY-NC-SA 4
 
 ## Dataset a Zenodo
 
+Enllaç: https://doi.org/10.5281/zenodo.4677284
+
+
 ## Contribucions
 
 | _Contribució_  | _Signatura_            |
