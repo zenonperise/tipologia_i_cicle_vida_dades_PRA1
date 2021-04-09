@@ -121,5 +121,5 @@ Aquest dataset vol mostrar quins conceptes o personatges han tingut rellevància
 
 ## Llicència
 
-La llicència de Meneame es troba dins la distribució lliure amb la condició de citar i referènciar la autoria del propiterari CC BY 3.0 ES. (Enllaç: https://creativecommons.org/licenses/by/3.0/es/)
+La llicència del contingut de Meneame es troba dins la distribució lliure amb la condició de citar i referènciar la autoria del propiterari CC BY 3.0 ES. (Enllaç: https://creativecommons.org/licenses/by/3.0/es/)
 Segons el nostre criteri, seleccionem la llicència Released Under CC BY-NC-SA 4.0 License, on s'ens permet utilitzar el contingut per la mateixa finalitat que utilitza el propietari(SA -Compartir igual).
