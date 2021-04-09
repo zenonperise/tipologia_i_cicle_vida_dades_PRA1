@@ -116,10 +116,10 @@ Aquest dataset vol mostrar quins conceptes o personatges han tingut rellevància
 - Estudi de paraules que apareixen associades. Per exemple (Fernando Simon + COVID)
 - Veure sí esdeveniments que han ocorregut es reflexen a les notícies. Per exemple, Brexit.
 
-## Licència
+## Llicència
 
-La licència de Meneame es troba dins la distribució lliure amb la condició de citar i referènciar la autoria del propiterari CC BY 3.0 ES. (Enllaç: https://creativecommons.org/licenses/by/3.0/es/)
-Segons el nostra criteri, seleccionem la licència Released Under CC BY-NC-SA 4.0 License, on s'ens permet utilitzar el contingut per la mateixa finalitat que utilitza el proietari. (SA -Compartir igual)
+La llicència de Meneame es troba dins la distribució lliure amb la condició de citar i referènciar la autoria del propiterari CC BY 3.0 ES. (Enllaç: https://creativecommons.org/licenses/by/3.0/es/)
+Segons el nostra criteri, seleccionem la llicència Released Under CC BY-NC-SA 4.0 License, on s'ens permet utilitzar el contingut per la mateixa finalitat que utilitza el proietari(SA -Compartir igual).
  
 ## Preguntes a respondre
 
