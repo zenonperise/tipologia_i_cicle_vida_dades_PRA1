@@ -1,5 +1,8 @@
 # Pràctica 1 de Tipologia i cicle de vida de les dades
 
+Zenon Perise Alia
+Adrià Vidal de Palol
+
 ## Context
 
 La importància dels medis de comunicació a la societat actual és indiscutible. L'anomenat "quart poder" té la capacitat de, a part d'informar sobre l'actualitat,
@@ -119,9 +122,4 @@ Aquest dataset vol mostrar quins conceptes o personatges han tingut rellevància
 ## Llicència
 
 La llicència de Meneame es troba dins la distribució lliure amb la condició de citar i referènciar la autoria del propiterari CC BY 3.0 ES. (Enllaç: https://creativecommons.org/licenses/by/3.0/es/)
-Segons el nostra criteri, seleccionem la llicència Released Under CC BY-NC-SA 4.0 License, on s'ens permet utilitzar el contingut per la mateixa finalitat que utilitza el proietari(SA -Compartir igual).
- 
-## Preguntes a respondre
-
-- Quina és la diferència entre la Descripció i el contingut?
-- Cal fer les respostes punt a punt o en un text tot seguit? Hi han temes i conceptes que es repeteixen a diferents punts.
+Segons el nostre criteri, seleccionem la llicència Released Under CC BY-NC-SA 4.0 License, on s'ens permet utilitzar el contingut per la mateixa finalitat que utilitza el propietari(SA -Compartir igual).
