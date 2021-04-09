@@ -1,7 +1,13 @@
 # Pràctica 1 de Tipologia i cicle de vida de les dades
 
-Zenon Perise Alia
-Adrià Vidal de Palol
+Aquesta és la documentació de la PRA1 de Tipologia i cicle de vida de les dades del màster de Ciència de Dades de la UOC.
+
+Estudiants:
+
+- Zenon Perise Alia
+- Adrià Vidal de Palol
+
+Semestre: Primavera 20/21
 
 ## Context
 
@@ -123,3 +129,13 @@ Aquest dataset vol mostrar quins conceptes o personatges han tingut rellevància
 
 La llicència del contingut de Meneame es troba dins la distribució lliure amb la condició de citar i referènciar la autoria del propiterari CC BY 3.0 ES. (Enllaç: https://creativecommons.org/licenses/by/3.0/es/)
 Segons el nostre criteri, seleccionem la llicència Released Under CC BY-NC-SA 4.0 License, on s'ens permet utilitzar el contingut per la mateixa finalitat que utilitza el propietari(SA -Compartir igual).
+
+## Dataset a Zenodo
+
+## Contribucions
+
+| _Contribució_  | _Signatura_            |
+| -------------- | ---------------------- |
+| Recerca prèvia | zperise, avidaldepalol |
+| Documentació   | zperise, avidaldepalol |
+| Codi           | zperise, avidaldepalol |
