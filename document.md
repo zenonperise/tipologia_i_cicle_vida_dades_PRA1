@@ -30,6 +30,10 @@ Per últim, no totes les noticies que s'envien a Meneame són d'actualitat propi
 
 ## Contingut
 
+El dataset conté les noticies de les 600 primeres pàgines de Meneame en el moment de l'extracció (8. Abril 2021) Això correspon a 15000 registres. Les dades obtingudes es troben totes a la portada de Meneame, és a dir, a la pàgina principal. No ha estat necessari carregar les pàgines de les notícies individualment. La pàgina principal a més està paginada, és a dir, al final de la pàgina trobem enllacos per accedir a la següent pàgina. Totes les pàgines són accessibles amb un paràmetre a la URL.
+
+Els camps extrets són els següents:
+
 - Pàgina: Número de pàgina de Meneame on apareix la notícia
 - Títol: Títol de la noticia. Text curt.
 - Resum: Resum de la notícia amb una llargada de 4 o 5 línies.
@@ -38,6 +42,13 @@ Per últim, no totes les noticies que s'envien a Meneame són d'actualitat propi
 - Data Enviament: Data d'enviament de la notícia a Meneame. El format és el número de segons desde mitjanit del 1 de Gener de 1970 a la zona horaria UTC.
 - Data Publicació: Data en la que la notícia va ser publicada a la portada de Meneame. El format és el número de segons desde mitjanit del 1 de Gener de 1970 a la zona horaria UTC.
 - Categoria: Categoria de l'article: Notícia d'actualitat, curiositat, ...
+
+Exemple de dades al Dataset
+
+```
+0,https://www.20minutos.es/noticia/4648655/0/encuentran-en-egipto-bajo-la-arena-una-gran-ciudad-perdida-de-3-000-anos/," Encuentran en Egipto el 'Ascenso de Atón', el descubrimiento más importante desde la tumba de Tutankamón ","El Gobierno egipcio anunció este jueves el hallazgo bajo la arena en la monumental Luxor de una gran ciudad de unos 3.000 años de antigüedad que se hallaba perdida y que se encuentra en un buen estado de conservación. Se trata del ""mayor asentamiento administrativo e industrial de la era del Imperio Egipcio en la orilla occidental de Luxor"" y ""la mayor ciudad jamás encontrada en Egipto"". La urbe recibió el nombre de ""El Ascenso de Atón"" y estuvo activa durante los reinados de faraones de la Dinastía XVIII, como Amenhotep III o Tutankamón.",135,1617889103,1617891003,actualidad
+0,https://www.huffingtonpost.es/entry/santiago-abascal-vallecas-policia_es_606ef3bdc5b6c70eccaeeb0d?due, La Policía señala a Santiago Abascal por los disturbios en Vallecas ,"El líder de Vox es el señalado por la Policía Nacional, según fuentes policiales citadas por el diario ABC: “Si Abascal no hubiera hecho de policía tal vez no habría 21 agentes heridos”. Este diario afirma que un agente pidió a Abascal que no cruzara el cordón de seguridad y que éste “hizo caso omiso”.  El líder ultraderechista se bajó de la tribuna, donde había dado un breve discurso, y se dirigió hacia los manifestantes.  Según ABC, “se dedicó a contar pasos, a tomar medidas imaginarias en el aire y a encararse con quienes tenía enfrente”.",619,1617888733,1617890155,actualidad
+```
 
 ## Agraïments
 
