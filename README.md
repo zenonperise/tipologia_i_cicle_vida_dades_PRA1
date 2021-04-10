@@ -1,6 +1,6 @@
 # Pràctica 1 de Tipologia i cicle de vida de les dades
 
-Practica 1 de l'assignatura Tipologia i cicle de vida de les dades del master de Ciència de Dades a la UOC.
+Pràctica 1 de l'assignatura Tipologia i cicle de vida de les dades del màster de Ciència de Dades a la UOC.
 
 El document es troba a [document.pdf](document.pdf). El codi de l'scrapper es troba a la carpeta src. Per executar-lo cal executar main.py.
 
