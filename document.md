@@ -37,6 +37,8 @@ Per últim, no totes les noticies que s'envien a Meneame són d'actualitat propi
 
 ## Representació Grafica
 
+![](wordcloud_titles.jpg)
+
 ## Contingut
 
 El dataset conté les noticies de les 600 primeres pàgines de Meneame en el moment de l'extracció (8. Abril 2021) Això correspon a 15000 registres. Les dades obtingudes es troben totes a la portada de Meneame, és a dir, a la pàgina principal. No ha estat necessari carregar les pàgines de les notícies individualment. La pàgina principal a més està paginada, és a dir, al final de la pàgina trobem enllacos per accedir a la següent pàgina. Totes les pàgines són accessibles amb un paràmetre a la URL.
